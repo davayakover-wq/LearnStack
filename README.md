@@ -10,9 +10,12 @@ truth for scope, schema, and architecture decisions.
 
 ## Status
 
-Phase 2 (Architecture) — project scaffold, tooling, and design tokens are in
-place. No feature code yet; see [`docs/08-roadmap.md`](./docs/08-roadmap.md)
-for what's next.
+Phases 1–13 complete per [`docs/08-roadmap.md`](./docs/08-roadmap.md): full
+lesson/quiz players, spaced repetition, gamification, stats, admin CMS,
+performance/accessibility pass, and a Vitest + Playwright test suite with CI.
+Phase 14 (Deployment) in progress.
+
+Live: https://learn-stack-5zjo.vercel.app
 
 ## Getting started
 
@@ -32,10 +35,12 @@ Open [http://localhost:3000](http://localhost:3000).
 | `pnpm lint`         | ESLint                           |
 | `pnpm format`       | Prettier — write                 |
 | `pnpm format:check` | Prettier — check only            |
+| `pnpm test`         | Vitest unit/component tests      |
+| `pnpm test:e2e`     | Playwright E2E tests             |
 
 ## Stack
 
-Next.js 15 (App Router) · TypeScript · Tailwind CSS v4 · shadcn/ui ·
+Next.js 16 (App Router) · TypeScript · Tailwind CSS v4 · shadcn/ui ·
 Framer Motion · Supabase (Postgres, Auth, Storage) · React Query · Zod ·
 React Hook Form · Recharts · pnpm. Rationale for each choice is in
 [`docs/03-tech-stack.md`](./docs/03-tech-stack.md).
